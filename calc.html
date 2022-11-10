@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title> 
+    <script src="calc.js"></script> 
+    <link rel="Stylesheet" href="calc.css">
+</head>
+<body>
+    <div>
+    <h1 class="make">SIMPLE CALCULATOR</h1>
+<table class="kanna" border="2px" >
+<tr  class="origin">
+<td colspan="3"><input type="text" id="next"></td>  
+
+<td><button class="root"onclick="ac()">AC</button></td>
+</div>
+
+</tr >  
+<div class="goat">
+<tr  class="row1">
+    <td><button  class="btn4 " onclick="show('7')">7</button></td> 
+    <td><button  class="btn4 "onclick="show('8')">8</button></td>
+    <td><button  class="btn4 "onclick="show('9')">9</button></td>
+    <td><button  class="btn4  "onclick="show('+')">+</button></td>
+</tr>
+<tr  class="row1"> 
+    <div class="btn1">
+    <td><button  class="btn3 "onclick="show('4')">4</button></td> 
+    <td><button   class="btn3" onclick="show('5')">5</button></td>
+    <td><button  class="btn3"  onclick="show('6')">6</button></td>
+    <td><button  class="btn3" onclick="show('-')">-</button></td> 
+    </div>
+</tr>
+<tr  class="row1">
+    <td><button class="btn1 " onclick="show('1')">1</button></td> 
+    <td><button class="btn1  "onclick="show('2')">2</button></td>
+    <td><button class="btn1  "onclick="show('3')">3</button></td>
+    <td><button class="btn1  "onclick="show('*')">*</button></td>
+</tr>
+<tr  class="row1">
+    <td><button class="btn2 "onclick="show('0')">0</button></td> 
+    <td><button class="btn2 " onclick="show('%')">%</button></td>
+   
+    <td><button  class="btn2" onclick="show('/')">/</button></td>
+    <td><button class="btn2 " onclick="kanna('=')">=</button></td>
+</tr>
+</div>
+
+</table>
+</body>
+</html>

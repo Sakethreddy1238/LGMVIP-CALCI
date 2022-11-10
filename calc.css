@@ -1,0 +1,70 @@
+*{
+padding: 0px;
+margin:0px;
+
+}  
+body{
+background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-watercolor-background_23-2149005675.jpg?size=626&ext=jpg&ga=GA1.2.1263745694.1659428641");
+background-size: cover;
+}
+.make{
+    text-align: center;
+    background-color: rgb(2, 12, 12); 
+    margin-left: 150px;
+    margin-right:220px; 
+    overflow: hidden; 
+    border: 2px solid ; 
+    margin-top: 50px;  
+    margin-bottom: 20px; 
+    width: 60%;
+    color:aliceblue
+
+}  
+.kanna{
+    border: 3px solid rgb(8, 8, 8); 
+    text-align: center; 
+    margin-left: 150px; 
+    background-color: rgba(239, 246, 239, 0.959);  
+    width: 60%;
+    height: 400px; 
+
+   
+    
+}
+#next{
+    height: 50px;
+    width: 500px; 
+    text-decoration: solid; 
+    font-weight: bold;
+    font-size: larger;
+
+
+
+} 
+.btn1{
+    padding: 10px;
+    cursor: pointer;
+} 
+.btn2{
+    padding: 10px;
+    cursor: pointer;
+} 
+.btn3{
+    padding: 10px;
+    cursor: pointer;
+} 
+.btn4{
+    padding: 10px; 
+    cursor: pointer;
+}  
+.root{
+padding: 10px; 
+background-color: black; 
+color: white; 
+cursor: pointer;
+}
+
+.row1{
+    width: 100px;
+}
+
